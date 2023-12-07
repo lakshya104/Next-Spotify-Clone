@@ -6,7 +6,6 @@ interface AuthModalStore {
   onClose: () => void;
 }
 
-// Heeheheh
 
 const useAuthModal = create<AuthModalStore>((set) => ({
   isOpen: false,
